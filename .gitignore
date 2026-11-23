@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Build & output folders (Express / React / Vite / Next)
+dist/
+build/
+out/
+.next/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Runtime / local temp files
+pids/
+*.pid
+*.seed
+coverage/
+uploads/
+tmp/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
